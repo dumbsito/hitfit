@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+ 
+}
+p{
+  font-family: 'Didact Gothic', sans-serif;
+}
+nav{
+background-color: transparent;
+display: flex;
+justify-content: space-around;
+padding: 10px;
+position: absolute;
+width: 100%;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+ color: white;
+}
+
+.class{
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #CFC3FF;
+  width: 140px;
+  font-size: 15px;
+  padding: 10px;
+  color: #CFC3FF;
+  border-radius: 20px;
+  cursor: pointer;
+}
+ul{
+  display:flex;
+}
+nav li{
+   margin-left: 70px;
+   list-style: none;
+}
+
+li a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #CFC3FF;
+}
+
+
+.home{
+  width: 100vw;
+  height: 110vh;
+  background-image: url(/public/back1.png);
+  background-position: 0px -30px;
+
+}
+.about{
+  width: 100vw;
+  height: 130vh;
+  background-image: url(/public/back2.png);
+  background-size: cover;
+}
+.about2{
+  width: 100vw;
+  height: 120vh;
+  background: #0C0C0C;
+  background-image: url(/public/about2.png);
+ background-position: 800px  0px;
+ background-size: 400px 600px;
+  background-repeat: no-repeat;
+ 
+}
+.about3{
+  padding-top: 10rem;
+  width: 100vw;
+  height:110vh; background: linear-gradient(180deg,#000000 31.56%,#484554 100%);
+display: flex;
+
+}
+
+.programs{
+  height:135vh;
+  width: 100vw;
+  background: linear-gradient(180deg,#484554 8.58%,#181818 88.69%);
+  padding: 2rem 0;
+  scroll-snap-align: start;
+}
+
+.card-container img{
+  width: 200px;
+  height: 300px;
+}
+
+.facilities{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.enterEmail{
+  display: flex;
+  margin-top: 50px;
+  height: 120vh;
+  width: 100vw;
+}
+.location{
+  height: 1280px;
+  width: 100vw;
+}

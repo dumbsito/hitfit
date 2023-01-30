@@ -1,0 +1,43 @@
+.text{
+    position: absolute;
+    width: 490px;
+    top:30%;
+    left: 30%;
+
+    h1{
+        color: white;
+        font-size: 40px;
+    }
+    span{
+        color: #8279a5;
+
+    }
+    p{
+        margin-left: 20px;
+        color: white;
+        font-size:16px;
+        width: 450px;
+    }
+  }
+ 
+  video {
+   height: 110vh;
+  z-index: 0;
+
+   width: 100%;
+   max-width:100%;  /* added */
+   object-fit: cover;
+   position: relative;
+  }
+  .overlay{
+    background-color: #00000094;
+    height: 110vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+.con{
+    border: 1px solid red;
+    position: relative;
+}

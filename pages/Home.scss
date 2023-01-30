@@ -1,0 +1,30 @@
+.info{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 150px;
+
+    h1{
+        width: 33rem;
+        color: white;
+        font-size: 50px;
+    }
+
+    .violet{
+        color: #CFC3FF;
+    }
+
+    p{
+        color: white;
+        width: 30rem;
+        margin-top: 40px;
+    }
+
+    .boton{
+        width: 12rem;
+        padding: 10px;
+        background-color: #CFC3FF;
+        color: #8279a5;
+        margin-top: 20px;
+        border-radius: 50px;
+    }
+}

@@ -1,0 +1,99 @@
+.enterEmail{
+    height: 120vh;
+    display: flex;
+    width: 1280px;
+    justify-content: space-around;
+}
+.convenient{
+ 
+ width: 25rem;
+margin-left: 40px;
+ margin-top: 100px;
+    h1{
+        color: #484554;
+        font-size: 40px;
+       margin-left: 9px;
+    }
+    span{
+        color: #8279a5;
+
+    }
+    p{
+        font-size: 16px;
+        padding: 10px;
+        line-height:25px;
+        
+    }
+.enter{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+    input{
+        width: 180px;
+        padding: 0.4rem 0.5rem;
+        color: #484554;
+        border: 1px solid #484554;
+        border-radius: 100px;
+        outline: none;
+        font-size: 1rem;
+    }
+    button{
+    margin-left: 15px;
+    color: white;
+    background-color:  #484554;
+    width: 110px;
+    border: none;
+    padding: 0.4rem 0.5rem;
+    border-radius: 100px;
+    }
+}
+.images{
+    margin-left: 100px;
+    margin-top: 70px;
+
+    img{
+
+    }
+}
+
+.location{
+    width: 1280px;
+height: 120vh;
+
+    .bepart{
+        text-align: center;
+        width: 500px;
+   
+        margin: auto;
+        h1{
+            color: #484554; 
+            font-size: 40px;
+        }
+        p{
+            width: 500px;
+           font-size: 18px;
+        }
+
+    }
+
+    img{
+        width: 450px;
+        height: 320px;
+    }
+}
+.location-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    gap: 70px;
+    margin-top: 50px;
+  h1{
+ color: #484554;
+ margin-top: 20px;
+ font-size: 23px;
+  }
+    p{
+        width: 450px;
+        font-size: 14px;
+    }
+}

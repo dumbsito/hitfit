@@ -1,0 +1,73 @@
+.about,.about2{
+ 
+    display: flex;
+    
+}
+    .fitness{    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+       margin-left: 40em;
+        width: 400px;
+        color: white;
+  h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+ 
+
+
+    }
+
+    .about3 img{
+        width:27rem;
+        height: 35rem;
+     margin-left: 110px;
+    }
+
+    .perspire{
+       
+        h1{
+            font-size: 40px;
+            color: white;
+            width:300px;
+        }
+        span{
+            color: #8279a5;
+        }
+        width: 360px;
+    margin-left: 110px;
+    margin-top: 0px;
+        p{
+            color: white;
+            margin-top: 30px;
+        }
+    } 
+    .building{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 15rem;
+        width: 400px;
+        color: white;
+
+        h1{
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+      }
+      .boton{
+        width: 12rem;
+        padding: 10px;
+        background-color: #CFC3FF;
+        color: #8279a5;
+        margin-top: 20px;
+        border-radius: 50px;
+    }
+
+    .violet{
+        color: #CFC3FF;
+    }

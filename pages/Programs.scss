@@ -1,0 +1,41 @@
+.our{
+    color: white;
+    margin-top: 70px;
+    margin-left: 60px;
+    h1{
+    font-size: 38px;
+    }
+    p{
+        width: 350px;
+        margin-bottom:60px;
+    }
+}
+.card-container{
+    
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    gap: 30px;
+    .cards{
+        
+        img{
+            width: 260px;
+            height: 400px;
+            cursor: pointer;
+        }
+      h1{
+        margin-left: 3px;
+        margin-top: 20px;
+        color: white;
+        font-size: 25px;
+       white-space: nowrap;
+      }
+        p{
+            margin-left: 5px;
+            color: white;
+            width:240px;
+            font-size: 14px;
+        }
+    }
+}
